@@ -14,5 +14,15 @@
     color: var(--c-red);
     background-color: var(--c-d-blue);
     letter-spacing: 2px;
+    box-sizing: border-box;
 }
-
+.kepregeny {
+  display: flex;
+  flex-wrap: wrap;
+}
+.kepregeny img {
+    width: 300px;
+}
+.kepregeny div {
+  padding: 5px;
+}
