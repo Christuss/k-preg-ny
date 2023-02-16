@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+:root {
+  --c-white: #F7F7FF;
+  --c-l-blue: #23B5D3;
+  --c-d-blue: #011936;
+  --c-yellow: #F0C808;
+  --c-red: #C81D25;
+  --f-comic: 'Bangers', cursive;
+}
+
+*{
+    font-family: var(--f-comic);
+    color: var(--c-red);
+    background-color: var(--c-d-blue);
+    letter-spacing: 2px;
+}
+
