@@ -18,6 +18,9 @@
     letter-spacing: 2px;
     box-sizing: border-box;
 }
+footer {
+  text-align: center;
+}
 .kepregeny {
   display: flex;
   flex-wrap: wrap;
@@ -46,7 +49,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 40vw;
+  height: 800px;
 }
 
 header{
@@ -92,4 +95,10 @@ nav a:hover{
 .a img:hover, .b img:hover, .e img:hover, .g img:hover, .j img:hover, .k img:hover, .m img:hover {
   filter: invert();
 }
-
+footer {
+  padding-top: 10vh;
+  padding-bottom: 10px;
+}
+aside {
+  padding: 20px ;
+}
