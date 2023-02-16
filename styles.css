@@ -126,7 +126,14 @@ article{
 .kepregeny div {
     padding: 5px;
 }
-
+@media screen and (max-width: 600px) {
+    header {
+      grid-template-columns: 1fr;
+    }
+    header h1{
+      text-align: center;
+    }
+}
 
 
 
