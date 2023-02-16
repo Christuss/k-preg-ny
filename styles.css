@@ -17,6 +17,36 @@
     letter-spacing: 2px;
     box-sizing: border-box;
 }
+.kepregeny {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.kepregeny img {
+    width: 300px;
+}
+.kepregeny div {
+  padding: 5px;
+}
+.card img {
+  border-radius: 10px;
+  width: 300px;
+  margin: 10px;
+  transition: all .5s ease;
+}
+.card {
+  text-align: center;
+}
+.card img:hover {
+  width: 310px;
+  filter: invert();
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 40vw;
+}
 
 header{
     display: grid;
@@ -63,7 +93,12 @@ nav a:hover{
     text-shadow: 3px 3px var(--c-d-blue);
     font-size: 1.8em;
 }
-
+.a img, .b img, .e img, .g img, .j img, .k img, .m img {
+  transition: all 0.3s ease-in-out;
+}
+.a img:hover, .b img:hover, .e img:hover, .g img:hover, .j img:hover, .k img:hover, .m img:hover {
+  filter: invert();
+}
 
 article{
     width: 60%;
